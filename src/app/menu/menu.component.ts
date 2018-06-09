@@ -7,12 +7,11 @@ import {DishService} from '../services/dish.service';
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.scss']
 })
+
 export class MenuComponent implements OnInit {
 
 	dishes : Dish[];
   selectedDish : Dish; 
-
-
 
   constructor(private dishService: DishService) { }
 
@@ -25,3 +24,9 @@ export class MenuComponent implements OnInit {
 
   }
 }
+
+
+
+
+
+
