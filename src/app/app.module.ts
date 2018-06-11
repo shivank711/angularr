@@ -26,6 +26,9 @@ import { LoginComponent } from './login/login.component';
 import { FormsModule} from '@angular/forms';
 import { MatInputModule} from '@angular/material';
 import {MatDividerModule} from '@angular/material/divider';
+import { ReactiveFormsModule} from '@angular/forms';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -55,7 +58,10 @@ import {MatDividerModule} from '@angular/material/divider';
     MatFormFieldModule,
     MatCheckboxModule,
     MatInputModule,
-    MatDividerModule
+    MatDividerModule,
+    ReactiveFormsModule,
+    MatSlideToggleModule,
+    MatSelectModule
   ],
   
   providers: [ DishService, PromotionService ],
